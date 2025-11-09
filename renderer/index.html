@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Maze3D Game</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Optional: Basic responsive styling -->
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #000;
+        height: 100%;
+      }
+      #game-container {
+        width: 100%;
+        height: 100vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="game-container"></div>
+
+    <!-- 3D library -->
+    <script src="assets/js/three.min.js"></script>
+
+    <!-- Utility modules -->
+    <script type="module" src="assets/js/particles.js"></script>
+    <script type="module" src="assets/js/winOverlay.js"></script>
+    <script type="module" src="assets/js/joystick.js"></script>
+
+    <!-- Main Maze Game -->
+    <script type="module" src="assets/js/maze3d.js"></script>
+  </body>
+</html>

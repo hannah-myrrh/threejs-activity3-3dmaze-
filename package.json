@@ -1,0 +1,13 @@
+{
+  "name": "maze3d-electron",
+  "version": "1.0.0",
+  "description": "A simple 3D Maze Game built with Three.js and Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "electron": "^33.0.0"
+  }
+}
